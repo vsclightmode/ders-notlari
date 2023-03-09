@@ -1,0 +1,47 @@
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 97vh;
+  background-color: #333;
+  font-family: 'Source Sans Pro';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 150px;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  padding: 1.5%;
+  text-align: center;
+  color: rgb(207, 207, 207);
+}
+
+a.footerlink {
+  color: rgb(217, 217, 217);
+}
