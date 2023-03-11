@@ -1,3 +1,2 @@
 # dersnotlari
-Ders Notlarım
 selam!
